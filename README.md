@@ -48,7 +48,7 @@ Install AutoHotkey v2:
 
 Create a new file named windsurf-keys.ahk with the code from [windsurf-keys.ahk](windsurf-keys.ahk).
 
-Double-click the file to run it (you'll see the AutoHotkey icon in your system tray).
+Double-click the file to run it (you'll see the AutoHotkey icon in your system tray). Put the AHK script in C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup to have it start when you log in (alternative method: press Win+R to open the Run dialogue and type `shell:startup` to open the Startup folder). 
 
 ## Linux
 
