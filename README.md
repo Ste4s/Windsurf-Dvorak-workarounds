@@ -13,11 +13,11 @@ On 14th December, 2024 Michael wrote:
 
 My response:
 
-> I've encountered these same keyboard layout issues in Windsurf and have created working solutions for both macOS (using Hammerspoon) and Windows (using AutoHotkey). I'm sharing both solutions below - skip to the one that matches your operating system.
+> I've encountered the same keyboard layout issue in Windsurf myself, and have created work-around solutions for both macOS (using Hammerspoon) and Windows (using AutoHotkey). I'm sharing both below - skip to the one that matches your operating system.
 >
-> This is a known issue with Electron apps and alternative keyboard layouts. The same issue has been in Evernote for several years. While we continue to advocate for better accessibility support in Electron apps, the solutions below provide immediate workarounds that:
+> This is a common  issue with Electron apps and alternative keyboard layouts. The same issue has been in Evernote for several years. While we continue to advocate for better accessibility support in Electron apps, the solutions below provide immediate workarounds that:
 >
-> - Make paste work correctly in Windsurf regardless of your keyboard layout
+> - Make paste work correctly in Windsurf (you may need to modify the hotkey if you're using a non-US keyboard layout other than Dvorak).
 > - Don't interfere with paste in other applications
 > - Include debugging options to help troubleshoot any issues
 > - Can be easily enabled/disabled
