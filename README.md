@@ -15,7 +15,7 @@ My response:
 
 > I've encountered the same keyboard layout issue in Windsurf myself, and have created work-around solutions for both macOS (using Hammerspoon) and Windows (using AutoHotkey). I'm sharing both below - skip to the one that matches your operating system.
 >
-> This is a common  issue with Electron apps and alternative keyboard layouts. The same issue has been in Evernote for several years. While we continue to advocate for better accessibility support in Electron apps, the solutions below provide immediate workarounds that:
+> This is a common  issue with Electron apps and alternative keyboard layouts. A similar issue has been in observed in Evernote for years (broken [italic and underline text formatting shortcuts](https://github.com/Ste4s/DvEnEnhancement)), and seems likely to remain unresolved. While we continue to advocate for better accessibility support in Electron apps, the solutions below provide immediate workarounds that:
 >
 > - Make paste work correctly in Windsurf (you may need to modify the hotkey if you're using a non-US keyboard layout other than Dvorak).
 > - Don't interfere with paste in other applications
@@ -48,7 +48,7 @@ Install AutoHotkey v2:
 
 Create a new file named windsurf-keys.ahk with the code from [windsurf-keys.ahk](windsurf-keys.ahk).
 
-Double-click the file to run it (you'll see the AutoHotkey icon in your system tray). Put the AHK script in C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup to have it start when you log in (alternative method: press Win+R to open the Run dialogue and type `shell:startup` to open the Startup folder). 
+Double-click the file to run it (you'll see the AutoHotkey icon in your system tray). Put the AHK script in `C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup` to have it start when you log in (alternative method: press Win+R to open the Run dialogue and type `shell:startup` to open the Startup folder). 
 
 ## Linux
 
